@@ -1,9 +1,9 @@
 import React from "react";
 import UserCard from "./UserCard";
-import Isha from "./StaticRES/isha.png";
-import Aditya1 from "./StaticRES/adityarai.png";
 import Aditya2 from "./StaticRES/adityayadav.png";
 import Aishwarya from "./StaticRES/aishwarya.png";
+import Aryan from "./StaticRES/aryan.png";
+import Shreyansh from "./StaticRES/shreyansh.png";
 
 export default function Creaters() {
      return (
@@ -12,10 +12,10 @@ export default function Creaters() {
                <div className="UserCardOuterContainer">
                     <div className="UserCardContainer">
                          <UserCard
-                              name={"Aditya Raj Rai"}
-                              branch={"Computer Science & Engineering"}
-                              image={Aditya1}
-                              gitLink={"https://github.com/adityarai0705"}
+                              name={"Shreyansh Saurabh"}
+                              branch={"Chemical Engineering"}
+                              image={Shreyansh}
+                              gitLink={"https://github.com/dwargosama"}
                          />
                          <UserCard
                               name={"Aishwarya Vikram Singh"}
@@ -26,10 +26,10 @@ export default function Creaters() {
                               }
                          />
                          <UserCard
-                              name={"Isha Vishwakarma"}
+                              name={"Aryan Singh"}
                               branch={"Electronics & Communication Engineering"}
-                              image={Isha}
-                              gitLink={"https://github.com/ishavishwakarma29"}
+                              image={Aryan}
+                              gitLink={"https://github.com/aarryyan"}
                          />
                          <UserCard
                               name={"Aditya Singh Yadav"}
